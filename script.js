@@ -521,3 +521,13 @@ window.addEventListener(
 
     }
 );
+
+
+function catBirthdaySurprise() {
+
+    const surprise =
+        document.getElementById("cat-surprise");
+
+    surprise.classList.toggle("show");
+
+}
