@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Для моей любимой Ули ❤️
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     ПЛАВАЮЩИЕ СЕРДЕЧКИ
+========================= -->
+
+<div id="hearts-container"></div>
+
+
+<!-- =========================
+     МУЗЫКАЛЬНЫЙ ПЛЕЕР
+========================= -->
+
+<div class="music-player">
+
+    <button
+        id="music-button"
+        onclick="toggleMusic()"
+    >
+        ▶
+    </button>
+
+    <div class="music-info">
+
+        <span>
+            Наша музыка
+        </span>
+
+        <small>
+            Happier
+        </small>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     ГЛАВНЫЙ ЭКРАН
+========================= -->
+
+<section class="hero">
+
+
+    <div class="hero-background"></div>
+
+
+    <div class="hero-content">
+
+
+        <div class="small-label">
+            ДЛЯ МОЕЙ ЛЮБИМОЙ
+        </div>
+
+
+        <h1>
+
+            С днём<br>
+
+            <span>
+                рождения
+            </span>
+
+        </h1>
+
+
+        <p class="hero-text">
+
+            Для самой милой,
+            самой красивой
+            и самой любимой девочки.
+
+        </p>
+
+
+        <div class="hero-name">
+
+            Уля ❤️
+
+        </div>
+
+
+        <button
+            class="main-button"
+            onclick="scrollToSection('welcome')"
+        >
+
+            Открыть подарок
+
+            <span>
+                ↓
+            </span>
+
+        </button>
+
+
+    </div>
+
+
+    <div class="scroll-indicator">
+
+        <span></span>
+
+        ЛИСТАЙ ВНИЗ
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     ПРИВЕТСТВИЕ
+========================= -->
+
+<section
+    class="section welcome"
+    id="welcome"
+>
+
+
+    <div class="content-container">
+
+
+        <div class="section-number">
+
+            01
+
+        </div>
+
+
+        <h2>
+
+            Привет,
+            любимая ❤️
+
+        </h2>
+
+
+        <div class="text-block">
+
+
+            <p>
+
+                Сегодня у одного очень особенного
+                человека день рождения.
+
+            </p>
+
+
+            <p>
+
+                И этим человеком являешься ты,
+                моя зайка.
+
+            </p>
+
+
+
+
+        </div>
+
+
+        <button
+            class="scroll-button"
+            onclick="scrollToSection('photos')"
+        >
+
+            Дальше 
+
+        </button>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     ФОТОГРАФИИ
+========================= -->
+
+<section
+    class="section photos-section"
+    id="photos"
+>
+
+
+    <div class="content-container">
+
+
+        <div class="section-number">
+
+            02
+
+        </div>
+
+
+        <h2>
+
+            Наши
+            моменты
+
+        </h2>
+
+
+        <p class="section-subtitle">
+
+            Немного воспоминаний,
+            которые я хочу запомнить навсегда.
+
+        </p>
+
+
+        <div class="photo-gallery">
+
+
+            <!-- ФОТО 1 -->
+
+            <div
+                class="photo-card photo-large"
+            >
+
+                <img
+                    src="photo1.jpg"
+                    alt="Наше фото"
+                >
+
+                <div class="photo-overlay">
+
+                    <span>
+                        ❤️
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ФОТО 2 -->
+
+            <div
+                class="photo-card"
+            >
+
+                <img
+                    src="photo2.jpg"
+                    alt="Наше фото"
+                >
+
+            </div>
+
+
+
+            <!-- ФОТО 3 -->
+
+            <div
+                class="photo-card"
+            >
+
+                <img
+                    src="photo3.jpg"
+                    alt="Наше фото"
+                >
+
+            </div>
+
+
+
+            <!-- ФОТО 4 -->
+
+            <div
+                class="photo-card"
+            >
+
+                <img
+                    src="photo4.jpg"
+                    alt="Наше фото"
+                >
+
+            </div>
+
+
+
+            <!-- ФОТО 5 -->
+
+            <div
+                class="photo-card photo-large"
+            >
+
+                <img
+                    src="photo5.jpg"
+                    alt="Наше фото"
+                >
+
+            </div>
+
+
+
+            <!-- ФОТО 6 -->
+
+            <div
+                class="photo-card"
+            >
+
+                <img
+                    src="photo6.jpg"
+                    alt="Наше фото"
+                >
+
+            </div>
+
+
+
+            <!-- ФОТО 7 -->
+
+            <div
+                class="photo-card"
+            >
+
+                <img
+                    src="photo7.jpg"
+                    alt="Наше фото"
+                >
+
+            </div>
+
+
+
+            <!-- ФОТО 8 -->
+
+            <div
+                class="photo-card"
+            >
+
+                <img
+                    src="photo8.jpg"
+                    alt="Наше фото"
+                >
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <button
+            class="scroll-button"
+            onclick="scrollToSection('about-her')"
+        >
+
+            Есть ещё кое-что ❤️
+
+        </button>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     ПОЧЕМУ ОНА ОСОБЕННАЯ
+========================= -->
+
+<section
+    class="section about-her"
+    id="about-her"
+>
+
+
+    <div class="content-container">
+
+
+        <div class="section-number">
+
+            03
+
+        </div>
+
+
+        <h2>
+
+            Почему именно
+            ты?
+
+        </h2>
+
+
+        <p class="section-subtitle">
+
+            На самом деле,
+            я могу перечислять это бесконечно.
+
+        </p>
+
+
+        <div class="reasons-grid">
+
+
+            <div class="reason-card">
+
+                <div class="reason-number">
+                    01
+                </div>
+
+                <h3>
+                    Самая милая
+                </h3>
+
+                <p>
+
+                    Потому что рядом с тобой
+                    всегда становится теплее.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="reason-card">
+
+                <div class="reason-number">
+                    02
+                </div>
+
+                <h3>
+                    Самая красивая
+                </h3>
+
+                <p>
+
+                    Для меня ты самая красивая.
+                    Просто потому что ты — это ты.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="reason-card">
+
+                <div class="reason-number">
+                    03
+                </div>
+
+                <h3>
+                    Самая любимая
+                </h3>
+
+                <p>
+
+                    Ты тот человек,
+                    которого я хочу видеть
+                    рядом с собой.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="reason-card">
+
+                <div class="reason-number">
+                    04
+                </div>
+
+                <h3>
+                    Просто ты
+                </h3>
+
+                <p>
+
+                    И, наверное,
+                    самое главное —
+                    я благодарен тебе
+                    просто за то, что ты есть.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     ВИДЕО
+========================= -->
+
+<section
+    class="section video-section"
+    id="video"
+>
+
+
+    <div class="content-container">
+
+
+        <div class="section-number">
+
+            04
+
+        </div>
+
+
+        <h2>
+
+            Немного
+            нас ❤️
+
+        </h2>
+
+
+        <p class="section-subtitle">
+
+            Здесь будут наши видео,
+            которые хочется пересматривать снова и снова.
+
+        </p>
+
+
+        <div class="video-grid">
+
+
+            <div class="video-card">
+
+                <video
+                    controls
+                    playsinline
+                >
+
+                    <source
+                        src="video1.mp4"
+                        type="video/mp4"
+                    >
+
+                </video>
+
+            </div>
+
+
+
+            <div class="video-card">
+
+                <video
+                    controls
+                    playsinline
+                >
+
+                    <source
+                        src="video2.mp4"
+                        type="video/mp4"
+                    >
+
+                </video>
+
+            </div>
+
+
+
+            <div class="video-card">
+
+                <video
+                    controls
+                    playsinline
+                >
+
+                    <source
+                        src="video3.mp4"
+                        type="video/mp4"
+                    >
+
+                </video>
+
+            </div>
+
+
+        </div>
+
+
+        <button
+            class="scroll-button"
+            onclick="scrollToSection('message')"
+        >
+
+            Еще я хочу сказать тебе кое-что..
+
+        </button>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     ПОЗДРАВЛЕНИЕ
+========================= -->
+
+<section
+    class="section message-section"
+    id="message"
+>
+
+
+    <div class="content-container message-container">
+
+
+        <div class="section-number">
+
+            05
+
+        </div>
+
+
+        <div class="heart-icon">
+
+            ♡
+
+        </div>
+
+
+
+
+        <div class="message-text">
+
+
+            <p>
+
+                Любимая,
+
+            </p>
+
+
+            <p>
+
+                я хочу поздравить тебя
+                с твоим днём рождения
+                и пожелать тебе самого
+                большого счастья и все что бы ты хотела сбывалось .
+
+            </p>
+
+
+            <p>
+
+                Ты невероятно милая,
+                красивая и особенная
+                для меня.
+
+            </p>
+
+
+            <p>
+
+                Я очень благодарен тебе
+                просто за то, что ты есть
+                в моей жизни, и за каждый момент проведеный со мной
+
+
+            </p>
+
+
+
+
+            <p>
+
+                
+                
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     ПАСХАЛКА
+========================= -->
+
+<section
+    class="section easter-section"
+>
+
+
+    <div class="content-container">
+
+
+        <div class="easter-hint">
+
+            Иногда самые важные вещи
+            нужно просто найти...
+
+        </div>
+
+
+<!-- ПАСХАЛКИ -->
+
+<div
+    class="hidden-heart heart-one"
+    onclick="showLoveMessage(this, 'А я люблю тебя 💖')"
+>
+    ♥️
+</div>
+
+
+<div
+    class="hidden-heart heart-three"
+    onclick="showLoveMessage(this, 'С днём рождения 🥳')"
+>
+    ♥️
+</div>
+
+
+<div
+    id="love-message"
+    class="love-message"
+>
+</div>
+
+</section>
+
+
+
+<!-- =========================
+     ФИНАЛ
+========================= -->
+
+<section class="final-section">
+
+
+    <div class="final-content">
+
+
+        <div class="final-small">
+
+            ДЛЯ ТЕБЯ
+
+        </div>
+
+
+        <h2>
+
+            С днём рождения,
+            зайка
+
+        </h2>
+
+
+
+
+<div class="final-heart">
+    💋
+</div>
+
+
+        <p class="final-signature">
+
+            Я люблю тебя.
+
+        </p>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script
+    src="script.js"
+></script>
+
+
+</body>
+
+</html>
