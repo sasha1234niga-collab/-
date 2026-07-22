@@ -24,7 +24,7 @@ function scrollToSection(sectionId) {
    МУЗЫКА
 ========================================= */
 
-const music = new Audio("music.mp3");
+const music = new Audio("1JDGYUYj8XGGMn6pcJE5+NYE_e7N6XZI.m4a");
 
 music.loop = true;
 
